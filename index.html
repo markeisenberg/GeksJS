@@ -61,7 +61,8 @@
 			ga('create', 'UA-5342062-6', 'noelboss.github.io');
 			ga('send', 'pageview');
     </script>
-
+    
+    
 </head>
 
 <body>
@@ -156,6 +157,32 @@
                     </ul>
 			</div>
     </nav>
+    
+    <div id="FF_banner">
+        <img src="http://toastytech.com/good/donthurtheweb-avatar-120.png" width="60px"/>
+        Sorry Firefox users, but unfortunately the Logogram Creator currently doesn't work with Firefox!
+        <br>
+        You can still explore the website, but you won't be able to construct logos :(.
+        <br>
+        <a href="javascript:hide();">Close (x)</a>
+    </div>
+    
+    <script language="javascript">
+        
+        var browserCheck = navigator.userAgent,
+            substring = "Firefox";
+            if(browserCheck.indexOf(substring) > -1){   
+               document.getElementById("FF_banner").style.visibility = "visible";
+            }
+        
+        function hide() {            document.getElementById("FF_banner").style.visibility = "hidden";
+        }
+        
+        function show() {            document.getElementById("FF_banner").style.visibility = "visible";
+        }
+        
+</script>
+
 
     <div id="logo_input">
 

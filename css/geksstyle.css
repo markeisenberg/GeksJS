@@ -286,3 +286,14 @@ li img:hover {
 .mymenu {
     position:fixed;
 }
+#FF_banner {
+    background-color: orange;
+    opacity: 0.97;
+    position: fixed;
+    visibility: hidden;
+    color: black;
+    top: 0px;
+    height: 150px;
+    width: 100%;
+    z-index: 6;
+}

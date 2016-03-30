@@ -865,13 +865,3 @@ function goDark(){
 
         document.getElementById("ani_Button").style.color='#7F7F7F';
 }
-
-
-$(window).resize(function() {
-  if ($(window).width() < 960) {
-     alert('Less than 960');
-  }
- else {
-    alert('More than 960');
- }
-});
